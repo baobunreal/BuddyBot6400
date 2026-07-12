@@ -1,0 +1,15 @@
+{
+  "name": "buddybot6400",
+  "version": "1.0.0",
+  "description": "A fun Slack bot with games and utilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.7.3",
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2"
+  }
+}
