@@ -76,16 +76,16 @@ app.command("/buddybot6400-roast", async ({ ack, respond }) => {
 
   try {
     const roasts = [
-      "You're a lovable glitch in the matrix, twin — charmingly chaotic.",
-      "I'd call you a bug, but bugs usually get fixed. You're more of a feature.",
-      "You're the kind of friend who brings snacks... and still takes the last one. Rude, but adorable.",
-      "You're so extra you should have your own theme music, twin.",
-      "You have the confidence of someone who's only slightly made it up as they go — impressive!",
-      "You're a walking 'hold my coffee' moment — chaotic, memorable, and caffeinated.",
-      "You're the human version of autoplay — unstoppable and a little loud, but we keep you anyway.",
-      "Not bad — just spectacularly average in the cutest possible way, twin.",
-      "You're sharp enough to slice through drama, but soft enough to be forgiven for it.",
-      "If charm were currency you'd still owe me change, but it's fine, you're endearing."
+      "You a bum twin",
+      "You the typa person to larp anime",
+      "Noobsville called, they want their mayor back",
+      "I can't even roast you",
+      "You lucky I'm behind a API or you would be running",
+      "Supa hot fire I eat that",
+      "You got things like phonk on your playlist huh",
+      "You the kind of person to trip over a wireless connection hahahahahahahahah",
+      "You look like a block of cheese lol",
+      "My noob alarm is ringing! Ring Ring"
     ];
 
     const choice = roasts[Math.floor(Math.random() * roasts.length)];
