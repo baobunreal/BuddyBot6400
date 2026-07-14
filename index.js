@@ -160,8 +160,6 @@ app.command("/buddybot6400-help", async ({ ack, respond }) => {
 • /buddybot6400-urban <term> — Look up a slang term
 • /buddybot6400-meme — Fetch a meme
 • /buddybot6400-rps <rock|paper|scissors> — Play rock paper scissors
-• /buddybot6400-hangman-start — Start a hangman game
-• /buddybot6400-hangman-guess <letter> — Guess a letter in hangman
 • /buddybot6400-coin — Flip a coin
 • /buddybot6400-scramble — Start a word scramble
 • /buddybot6400-scramble-answer <word> — Answer the scramble
@@ -591,7 +589,7 @@ app.command("/buddybot6400-networth", async ({ ack, respond }) => {
 });
 
 // shhhhhhhhhhhhhhhhhhhhhhhh very secret command
-app.command("/buddybot6400-sEcrEt67", async ({ ack, respond }) => {
+app.command("/buddybot6400-secret67", async ({ ack, respond }) => {
   await ack();
 await respond({ text: 'certified banger alert 🚨: https://www.youtube.com/watch?v=GkG60kISnfc'});
 });
